@@ -1,6 +1,6 @@
 # Choropleth Map using d3
 
-This is a test about **d3**, **JSON**, **APIs** and **AJAX** from _freeCodeCamp_, I do this code.
+This is a test about **d3**, **JSON**, **APIs** and **AJAX** from _freeCodeCamp_, I did this code.
 
 I'm using:
 framework |  d3-scale |    d3     |  topojson |
