@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  
+  <!-- adicionando o css -->
+  <link rel="stylesheet" href="./src/styles/styles.css">
+  
+</head>
+
+<body>
+  <div id="main">
+  <h1 id="title">United States Educational Attainment</h1>
+  <div id="description">
+    Percentage of adults age 25 and older with a bachelor's degree or higher
+    (2010-2014)
+  </div>
+  <svg width="960" height="600"></svg>
+  <div id="source">
+    Source:
+    <a href="https://www.ers.usda.gov/data-products/county-level-data-sets/download-data.aspx"
+ >USDA Economic Research Service</a>
+  </div>
+</div>
+
+<!-- adicionando o d3 -->
+<script src="./cdn_modules/d3-scale@1.0.7/d3-scale.min.js"></script>
+<script src="./cdn_modules/d3@7.8.5/d3.min.js"></script>
+<script src="./cdn_modules/topojson@3.0.2/topojson.min.js"></script>
+
+<!-- adicionando o js main -->
+<script src="./src/scripts/main.js"></script>
+</body>
+
+</html>
